@@ -1,1 +1,16 @@
+header{
 
+  width: 100%;
+  display: flex;
+  border-bottom: 1px solid;
+}
+.logo{
+  display: flex;
+}
+nav ul{
+
+  text-align: right;
+}
+nav li {
+  display: inline-block;
+}
