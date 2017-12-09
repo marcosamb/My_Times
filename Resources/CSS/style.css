@@ -1,16 +1,31 @@
-header{
-
-  width: 100%;
+header {
   display: flex;
+  font-family: Verdana;
+  font-size: 14px;
+  font-weight: bold;
   border-bottom: 1px solid;
+  justify-content: space-between;
 }
-.logo{
+/* Right section of the header */
+div.logo{
   display: flex;
 }
-nav ul{
-
-  text-align: right;
+img {
+  margin: auto;
 }
-nav li {
+h1{
+  font-size: 14px;
+  color: MediumAquamarine;
+  margin: auto;
+}
+/* Left section of the header = Navegation menu */
+nav li{
   display: inline-block;
+  margin: 10px;
+}
+li a {
+  color: black;
+}
+.science {
+  margin-right: 40px;
 }
