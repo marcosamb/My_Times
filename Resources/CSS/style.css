@@ -74,20 +74,25 @@ p.title1{
   margin: 0;
   display: flex;
 }
-.news2 {
 
+div.news2 {
+  display: inline;
+  width: 300px;
+  border: 1px solid;
 }
 p.title2 {
   font-size: 25px;
   font-weight: bold;
   margin: 10px 0;
-  display: flex;
+    width: 300px;
+
 }
 div.earthpic {
   background-image: url("../Images/img-story-2.png");
   height: 300px;
+  width: 300px;
   margin: 10px 0;
-  display: flex;
+
 }
 p.earth {
   font-family: Georgia;
@@ -95,23 +100,30 @@ p.earth {
   font-size: 30px;
   color: white;
   text-align: center;
-  display: flex;
-}
-.news3 {
+    width: 300px;
 
 }
+
+div.news3 {
+  display: inline;
+  width: 300px;
+    border: 1px solid;
+}
+
 p.title3 {
   font-size: 25px;
   font-weight: bold;
   margin: 10px 0;
-  display: flex;
+    width: 300px;
+
 }
 
 div.researchpic {
   background-image: url("../Images/img-story-3.png");
   height: 300px;
+  width: 300px;
   margin: 10px 0;
-  display: flex;
+
 }
 
 p.research {
@@ -120,7 +132,8 @@ p.research {
   font-size: 30px;
   color: white;
   text-align: center;
-  display: flex;
+    width: 300px;
+
 }
 p.information {
   font-family: Georgia;
@@ -179,11 +192,28 @@ p.cat {
 }
 
 .news6 {
-
+  display: flex;
+  flex-direction: column;
 }
 p.title6 {
-  font-size: 25px;
+  font-size: 16px;
   font-weight: bold;
-  margin: 10px 0;
+  align-items:center;
+  justify-content: center;
+  margin: 30px 0;
   display: flex;
+  border: 1px solid;
+}
+P.segments {
+  display: flex;
+  background-color: WhiteSmoke;
+  font-family: Verdana;
+  font-size: 12px;
+  color: DimGray;
+  height: 30px;
+  padding-top: 14px;
+  padding-left: 20px;
+  margin: 0;
+  border-bottom: 1px solid;
+  align-content: center;
 }
