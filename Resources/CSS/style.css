@@ -5,20 +5,33 @@ header {
   font-weight: bold;
   border-bottom: 1px solid;
   justify-content: space-between;
+  align-items: center;
+  top: 0;
+  left: 0;
+  width: 100%;
+  position: fixed;
+  background-color: white;
+  z-index: 10;
+
 }
-/* Right section of the header */
+/* Left section of the header */
 div.logo{
   display: flex;
+  width: 50%;
+  margin: 10px 0;
+
 }
-img {
-  margin: auto;
-}
+
 h1{
   font-size: 14px;
   color: MediumAquamarine;
-  margin: auto;
+  padding-top: 10px;
 }
-/* Left section of the header = Navegation menu */
+
+/* Right section of the header = Navegation menu */
+nav {
+
+}
 nav li{
   display: inline-block;
   margin: 10px;
@@ -28,4 +41,149 @@ li a {
 }
 .science {
   margin-right: 40px;
+}
+
+/* CONTENT */
+.container{
+  display: flex;
+  margin: 0 20px;
+  justify-content: flex-start;
+  align-content:flex-start;
+  top: 75px;
+  position: relative;
+}
+
+/* Left Column */
+.column.large {
+  width: 630px;
+  display: flex;
+  margin-top: 30px;
+  margin-right: 15px;
+  flex-direction: column;
+}
+div.news1 {
+  display: flex;
+  background-image: url("../Images/img-story-main.png");
+  height: 300px
+}
+p.title1{
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 40px;
+  color: white;
+  margin: 0;
+  display: flex;
+}
+.news2 {
+
+}
+p.title2 {
+  font-size: 25px;
+  font-weight: bold;
+  margin: 10px 0;
+  display: flex;
+}
+div.earthpic {
+  background-image: url("../Images/img-story-2.png");
+  height: 300px;
+  margin: 10px 0;
+  display: flex;
+}
+p.earth {
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+  text-align: center;
+  display: flex;
+}
+.news3 {
+
+}
+p.title3 {
+  font-size: 25px;
+  font-weight: bold;
+  margin: 10px 0;
+  display: flex;
+}
+
+div.researchpic {
+  background-image: url("../Images/img-story-3.png");
+  height: 300px;
+  margin: 10px 0;
+  display: flex;
+}
+
+p.research {
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+  text-align: center;
+  display: flex;
+}
+p.information {
+  font-family: Georgia;
+  font-size: 17px;
+  color: black;
+  padding: 10px 0;
+  margin: 0;
+  display: flex;
+}
+
+
+/* Middle Column */
+.column.medium {
+  width: 300px;
+  display: flex;
+  margin-top: 30px;
+  margin-left: 15px;
+  margin-right: 15px;
+
+  flex-direction: column;
+}
+.news4 {
+
+}
+p.title4 {
+  font-size: 25px;
+  font-weight: bold;
+  margin: 10px 0;
+  display: flex;
+}
+div.catpic {
+  background-image: url("../Images/img-story-1.png");
+  height: 300px;
+  margin: 10px 0;
+  display: flex;
+}
+p.cat {
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+  text-align: center;
+  display: flex;
+}
+.news5 {
+
+}
+
+/* Right Column */
+.column.small {
+  width: 240px;
+  display: flex;
+  margin-top: 30px;
+  margin-left: 15px;
+  flex-direction: column;
+}
+
+.news6 {
+
+}
+p.title6 {
+  font-size: 25px;
+  font-weight: bold;
+  margin: 10px 0;
+  display: flex;
 }
