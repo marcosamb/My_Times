@@ -1,3 +1,4 @@
+
 header {
   display: flex;
   font-family: Verdana;
@@ -29,10 +30,11 @@ h1{
 }
 
 /* Right section of the header = Navegation menu */
-nav {
 
+nav.header-menu {
+  margin-right: 50px;
 }
-nav li{
+nav.header-menu li{
   display: inline-block;
   margin: 10px;
 }
@@ -47,21 +49,26 @@ li a {
 .container{
   display: flex;
   margin: 0 20px;
-  justify-content: flex-start;
-  align-content:flex-start;
-  top: 75px;
+  justify-content: space-around;
   position: relative;
+  top: 70px;
+  border: 1px solid;
 }
 
 /* Left Column */
 .column.large {
   width: 630px;
-  display: flex;
+  display: inline-flex;
   margin-top: 30px;
-  margin-right: 15px;
-  flex-direction: column;
+  flex-flow: row wrap;
+  justify-content: space-between;
+
 }
 div.news1 {
+  display: inline-block;
+  width: 630px;
+}
+div.main-story {
   display: flex;
   background-image: url("../Images/img-story-main.png");
   height: 300px
@@ -76,23 +83,22 @@ p.title1{
 }
 
 div.news2 {
-  display: inline;
+  display: inline-block;
   width: 300px;
-  border: 1px solid;
+
 }
 p.title2 {
   font-size: 25px;
   font-weight: bold;
-  margin: 10px 0;
-    width: 300px;
+  margin-top: 40px;
+  margin-bottom: 20px;
 
 }
 div.earthpic {
+  display: flex;
   background-image: url("../Images/img-story-2.png");
   height: 300px;
-  width: 300px;
-  margin: 10px 0;
-
+  margin: 50px 0;
 }
 p.earth {
   font-family: Georgia;
@@ -100,29 +106,30 @@ p.earth {
   font-size: 30px;
   color: white;
   text-align: center;
-    width: 300px;
+
 
 }
 
 div.news3 {
-  display: inline;
+  display: inline-block;
   width: 300px;
-    border: 1px solid;
+
 }
 
 p.title3 {
   font-size: 25px;
   font-weight: bold;
-  margin: 10px 0;
-    width: 300px;
+  margin-top: 40px;
+  margin-bottom: 20px;
+
 
 }
 
 div.researchpic {
+  display: flex;
   background-image: url("../Images/img-story-3.png");
   height: 300px;
-  width: 300px;
-  margin: 10px 0;
+  margin: 50px 0;
 
 }
 
@@ -132,7 +139,7 @@ p.research {
   font-size: 30px;
   color: white;
   text-align: center;
-    width: 300px;
+
 
 }
 p.information {
@@ -148,10 +155,8 @@ p.information {
 /* Middle Column */
 .column.medium {
   width: 300px;
-  display: flex;
+  display: inline-flex;
   margin-top: 30px;
-  margin-left: 15px;
-  margin-right: 15px;
 
   flex-direction: column;
 }
@@ -185,10 +190,10 @@ p.cat {
 /* Right Column */
 .column.small {
   width: 240px;
-  display: flex;
+  display: inline-flex;
   margin-top: 30px;
-  margin-left: 15px;
   flex-direction: column;
+
 }
 
 .news6 {
@@ -202,7 +207,6 @@ p.title6 {
   justify-content: center;
   margin: 30px 0;
   display: flex;
-  border: 1px solid;
 }
 P.segments {
   display: flex;
@@ -216,4 +220,47 @@ P.segments {
   margin: 0;
   border-bottom: 1px solid;
   align-content: center;
+}
+
+/*Footer*/
+footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: MediumAquamarine;
+  font-family: Verdana;
+  font-size: 12px;
+  position: relative;
+  width: 100%;
+  top: 70px;
+  left: 0;
+  height: 200px;
+
+
+}
+div.first-line{
+  display: flex;
+  width: 500px;
+  border: 1px solid;
+  justify-content: center;
+  align-items: center;
+
+}
+p.foot {
+  display: flex;
+  font-family: Georgia;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+  padding-right: 10px;
+  border: 2px solid;
+}
+nav.foot-menu{
+  
+  border: 1px solid;
+}
+nav.foot-menu li{
+  display: inline-block;
+  margin: 0 15px;
 }
