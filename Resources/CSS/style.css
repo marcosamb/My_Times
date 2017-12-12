@@ -52,7 +52,6 @@ li a {
   justify-content: space-around;
   position: relative;
   top: 70px;
-  border: 1px solid;
 }
 
 /* Left Column */
@@ -62,7 +61,6 @@ li a {
   margin-top: 30px;
   flex-flow: row wrap;
   justify-content: space-between;
-
 }
 div.news1 {
   display: inline-block;
@@ -85,14 +83,12 @@ p.title1{
 div.news2 {
   display: inline-block;
   width: 300px;
-
 }
 p.title2 {
   font-size: 25px;
   font-weight: bold;
   margin-top: 40px;
   margin-bottom: 20px;
-
 }
 div.earthpic {
   display: flex;
@@ -101,19 +97,18 @@ div.earthpic {
   margin: 50px 0;
 }
 p.earth {
+  display: flex;
   font-family: Georgia;
   font-weight: bold;
   font-size: 30px;
   color: white;
   text-align: center;
-
-
+  align-items: center;
 }
 
 div.news3 {
   display: inline-block;
   width: 300px;
-
 }
 
 p.title3 {
@@ -121,8 +116,6 @@ p.title3 {
   font-weight: bold;
   margin-top: 40px;
   margin-bottom: 20px;
-
-
 }
 
 div.researchpic {
@@ -130,17 +123,16 @@ div.researchpic {
   background-image: url("../Images/img-story-3.png");
   height: 300px;
   margin: 50px 0;
-
 }
 
 p.research {
+  display: flex;
   font-family: Georgia;
   font-weight: bold;
   font-size: 30px;
   color: white;
   text-align: center;
-
-
+  align-items: center;
 }
 p.information {
   font-family: Georgia;
@@ -157,12 +149,9 @@ p.information {
   width: 300px;
   display: inline-flex;
   margin-top: 30px;
-
   flex-direction: column;
 }
-.news4 {
 
-}
 p.title4 {
   font-size: 25px;
   font-weight: bold;
@@ -182,9 +171,7 @@ p.cat {
   color: white;
   text-align: center;
   display: flex;
-}
-.news5 {
-
+  align-items: center;
 }
 
 /* Right Column */
@@ -193,7 +180,6 @@ p.cat {
   display: inline-flex;
   margin-top: 30px;
   flex-direction: column;
-
 }
 
 .news6 {
@@ -235,17 +221,13 @@ footer {
   width: 100%;
   top: 70px;
   left: 0;
-  height: 200px;
-
-
+  height: 250px;
 }
 div.first-line{
   display: flex;
   width: 500px;
-  border: 1px solid;
   justify-content: center;
   align-items: center;
-
 }
 p.foot {
   display: flex;
@@ -254,12 +236,9 @@ p.foot {
   font-weight: bold;
   color: white;
   padding-right: 10px;
-  border: 2px solid;
+  border-right: 2px solid;
 }
-nav.foot-menu{
-  
-  border: 1px solid;
-}
+
 nav.foot-menu li{
   display: inline-block;
   margin: 0 15px;
