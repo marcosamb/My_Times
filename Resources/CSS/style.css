@@ -1,8 +1,8 @@
 
 body {
-  border: 1px solid;
   margin: 0;
 }
+
 header {
   display: flex;
   font-family: Verdana;
@@ -24,7 +24,6 @@ div.logo{
   display: flex;
   width: 50%;
   margin: 10px 0;
-
 }
 
 h1{
